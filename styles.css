@@ -857,6 +857,22 @@ body {
     text-shadow: 0 2px 4px rgba(0,0,0,0.3);
     letter-spacing: 0.5px;
     overflow: hidden;
+    text-decoration: none;
+}
+
+/* Ensure anchor tag inherits button styling */
+a.cta-button {
+    color: white;
+    text-decoration: none;
+}
+
+a.cta-button:visited {
+    color: white;
+}
+
+a.cta-button:focus {
+    outline: 3px solid rgba(76,175,80,0.5);
+    outline-offset: 3px;
 }
 
 .cta-button::before {
